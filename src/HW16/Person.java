@@ -1,69 +1,40 @@
 package HW16;
 
 public class Person {
-    private String firstName;
+    private final String firstName;
     public String lastName;
-    private int dayOftheBirth;
-    private int monthOftheBirth;
-    private int yearOftheBirth;
-    private String email;
-    private String phoneNumber;
+    private final int dayOftheBirth;
+    private final int monthOftheBirth;
+    private final int yearOftheBirth;
+    private final String email;
+    private final String phoneNumber;
     public double weight;
     public String presure;
     public int countOfSteps;
-    public int age;
-    int defYear;
-
-    {
-        defYear = 2022 - age;
-    }
+    int defYear = 2022;
 
     public String getFirstName() {
         return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
     }
 
     public int getDayOftheBirth() {
         return dayOftheBirth;
     }
 
-    public void setDayOftheBirth(int dayOftheBirth) {
-        this.dayOftheBirth = dayOftheBirth;
-    }
-
     public int getMonthOftheBirth() {
         return monthOftheBirth;
-    }
-
-    public void setMonthOftheBirth(int monthOftheBirth) {
-        this.monthOftheBirth = monthOftheBirth;
     }
 
     public int getYearOftheBirth() {
         return yearOftheBirth;
     }
 
-    public void setYearOftheBirth(int yearOftheBirth) {
-        this.yearOftheBirth = yearOftheBirth;
-    }
-
     public String getEmail() {
         return email;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
     public String getPhoneNumber() {
         return phoneNumber;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
     }
 
     public String getLastName() {

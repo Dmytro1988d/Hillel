@@ -11,7 +11,7 @@ public class Main {
         Person person2 = new Person("Kostya","Gnedash",17,10,1987,"kostya@mail.ru","380973334456",92, "123/44",5563);
         person2.printAccountInfo();
 
-        person.setFirstName("Sezam");
+        person.setLastName("Sezam");
         person2.setLastName("Ivanov");
         person.printAccountInfo();
         person2.printAccountInfo();
