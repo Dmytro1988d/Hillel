@@ -8,9 +8,9 @@ public class Person {
     private final int yearOftheBirth;
     private final String email;
     private final String phoneNumber;
-    public double weight;
-    public String presure;
-    public int countOfSteps;
+    private double weight;
+    private String presure;
+    private int countOfSteps;
     int defYear = 2022;
 
     public String getFirstName() {
