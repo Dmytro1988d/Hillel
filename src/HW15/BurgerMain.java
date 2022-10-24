@@ -2,9 +2,8 @@ package HW15;
 
 public class BurgerMain {
     public static void main(String[] args) {
-        Burger burgerRegular = new Burger("bun","meat","cheese","herbs","mayo");
-        Burger burgerDiet = new Burger("bun","meat" , "cheese", "herbs");
-        Burger burgerdblmeat = new Burger("bun","meat",2,"cheese","herbs","mayo");
-
+        BurgerRegular burgerRegular = new BurgerRegular("bun","meat","cheese","herbs","mayo");
+        BurgerDiet burgerDiet = new BurgerDiet("bun","meat" , "cheese", "herbs","");
+        BurgerDblMeat burgerdblmeat = new BurgerDblMeat("bun","meat","cheese","herbs","mayo",2);
     }
 }

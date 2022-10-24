@@ -1,37 +1,17 @@
 package HW15;
 
 public class Burger {
-    public String Bun;
-    public String Meat;
-    public String Cheese;
-    public String Herbs;
-    public String Mayo;
-    public int Modificator;
+    public String bun;
+    public String meat;
+    public String cheese;
+    public String herbs;
+    public String mayo;
 
     public Burger(String bun, String meat, String cheese, String herbs, String mayo) {
-        Bun = bun;
-        Meat = meat;
-        Cheese = cheese;
-        Herbs = herbs;
-        Mayo = mayo;
-        System.out.println("The Regular burger of your choice consists of :" + " " + Bun + ", " + Meat + ", " + Cheese + ", " + Herbs + ", " + Mayo + ".");
-    }
-
-    public Burger(String bun, String meat, String cheese, String herbs) {
-        Bun = bun;
-        Meat = meat;
-        Cheese = cheese;
-        Herbs = herbs;
-        System.out.println("The Diet burger of your choice consists of :" + " " + Bun + ", " + Meat + ", " + Cheese + ", " + Herbs + ".");
-    }
-
-    public Burger(String bun, String meat, int modificator, String cheese, String herbs, String mayo) {
-        Bun = bun;
-        Meat = meat;
-        Cheese = cheese;
-        Herbs = herbs;
-        Modificator = 2;
-        Mayo = mayo;
-        System.out.println("The Doublemeat burger of your choice consists of :" + " " + Bun + ", " + Meat + " x" +modificator + ", " + Cheese + ", " + Herbs + ", " + Mayo + ".");
+        this.bun = bun;
+        this.meat = meat;
+        this.cheese = cheese;
+        this.herbs = herbs;
+        this.mayo = mayo;
     }
 }
